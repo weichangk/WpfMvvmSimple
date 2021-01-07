@@ -11,6 +11,7 @@ ViewModel：联系Model和View的关键，并分离两者（Class）
 
 绑定流程：
  - 编写数据数据绑定基类和命令属性绑定基类
+ 
 ![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/1.png)
 ![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/2.png)
 
