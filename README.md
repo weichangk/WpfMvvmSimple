@@ -12,16 +12,17 @@ ViewModel：联系Model和View的关键，并分离两者（Class）
 绑定流程：
  - 编写数据数据绑定基类和命令属性绑定基类
 ![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/1.png)
+
 ![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/2.png)
 
  - ViewModel继承数据绑定基类创建数据属性和命令属性
-![在这里插入图片描述](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/3.png)
+![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/3.png)
 
 - 在View  .xaml.cs设置元素参与数据绑定时的数据上下文对象
-![在这里插入图片描述](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/4.png)
+![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/4.png)
 
 - 在View  .xaml进行数据和命令绑定
-![在这里插入图片描述](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/5.png)
+![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/5.png)
 
 ```csharp
 Command="{Binding DataContext.SelectMenuItemCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}"
@@ -29,7 +30,7 @@ Command="{Binding DataContext.SelectMenuItemCommand, RelativeSource={RelativeSou
 AncestorType可以指向“祖先”Windows，这句话总的理解就是Windows.DataContext.SelectMenuItemCommand，如果只有Binding SelectMenuItemCommand将不会触发命令
 
 ### 架构
-![在这里插入图片描述](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/5.png)
+![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/5.png)
 
 ### 优势
 团队方面：统一思维方式和实现方法。
