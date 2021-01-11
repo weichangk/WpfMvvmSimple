@@ -30,7 +30,7 @@ ViewModel：联系Model和View的关键，并分离两者（Class）
 
 ### 架构
 
-![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/5.png)
+![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/6.png)
 
 ### 优势
 团队方面：统一思维方式和实现方法。
