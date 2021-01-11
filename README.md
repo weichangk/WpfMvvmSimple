@@ -27,10 +27,6 @@ ViewModel：联系Model和View的关键，并分离两者（Class）
 
 ![contents](https://github.com/weichangk/GitHubReadmeImg/blob/master/WpfMvvmSimple/5.png)
 
-```csharp
-Command="{Binding DataContext.SelectMenuItemCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type DataGrid}}}"
-```
-AncestorType可以指向“祖先”Windows，这句话总的理解就是Windows.DataContext.SelectMenuItemCommand，如果只有Binding SelectMenuItemCommand将不会触发命令
 
 ### 架构
 
